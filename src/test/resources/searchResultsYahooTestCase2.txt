@@ -1,0 +1,24 @@
+0) TEST DATA: [
+["Rus", ["Пассажирам",
+         "Грузовые перевозки",
+         "Компания",
+         "Работа в РЖД",
+         "Контакты",
+         "Версия для слабовидящих"]]
+["Eng", ["Passengers",
+         "Freight",
+         "The Company",
+         "Investor Relations",
+         "Contacts",
+         "Аccessibility version"]]
+              ]
+
+1) TITLE: Для локали TEST_DATA[0] на сайте eng.rzd.ru должен отображаться список кнопок TEST_DATA[1]
+2) PROIORITY / SEVERITY - HIGH
+3) STEPS:
+ - Открыть бразузер
+ - Открыть сайт eng.rzd.ru
+ - Выбрать локаль TEST_DATA[0]
+
+4) EXPECTED RESULT:
+ - Список кнопок соответствует TEST_DATA[1]

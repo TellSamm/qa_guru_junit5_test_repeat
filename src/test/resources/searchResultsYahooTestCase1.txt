@@ -1,0 +1,26 @@
+0) TEST DATA: [
+["JAVA", "Java | Oracle"]
+["Python", "Welcome to Python.org"]
+              ]
+
+1) TITLE: "Проверка числа результатов поиска по тексту - (TEST_DATA[0]) на сайте YAHOO.com" должен отображаться текст (TEST_DATA[1])
+2) PROIORITY / SEVERITY - HIGH
+3) PRECONDITIONS: Открыт сайт Yahoo.com
+4) STEPS:
+ - Ввести в поиск TEST_DATA[0]
+ - Кликнуть на кнопку найти
+
+5) EXPECTED RESULT:
+ - Число результатов поиска >= 5
+
+
+
+ 1) TITLE: "Проверка выдачи резульатов кол-ва мобильных приложений при клике на кнопку Mobile Apps в разделе MORE"
+ 2) PROIORITY / SEVERITY - LOW
+ 3) PRECONDITIONS: Открыт сайт Yahoo.com
+ 4) STEPS:
+  - Нажать на кнопку More
+  - Нажать на ссылку Mobile Apps
+
+5) EXPECTED RESULT:
+ - Число приложений поиска по тексту - (Java) >= 7
